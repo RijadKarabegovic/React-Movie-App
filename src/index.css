@@ -1,0 +1,196 @@
+@import url("https://fonts.google.com/specimen/Poppins?query=poppi#standard-styles");
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.black-border {
+  border: 1px solid black;
+}
+.main {
+  overflow-x: hidden;
+}
+.header {
+  background-image: url("./images/slika.jpg");
+  background-attachment: fixed;
+}
+.forma {
+  background-color: white;
+  border: none;
+  height: 54px;
+  line-height: 46px;
+  font-size: 1.1em;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px px;
+  border-right: transparent;
+}
+.form-input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.header {
+  height: 360px;
+  margin-bottom: 20px;
+}
+
+.upper-text {
+  padding-top: 70px;
+  padding-bottom: 35px;
+  margin-left: 70px;
+  color: white;
+}
+
+h1 {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color: white;
+}
+.form-edit:focus {
+  outline: 0;
+}
+.form-edit {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 46px;
+  padding: 10px 26px;
+
+  right: -1px;
+  border-radius: 30px;
+  border: none;
+}
+
+.in {
+  font-size: 21px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  position: relative;
+  height: 100%;
+  left: 24px;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to right, lightgreen 20%, rgb(102, 185, 212) 80%);
+}
+.in:hover {
+  color: black;
+}
+.movies {
+  z-index: 1;
+  width: 170px;
+}
+
+.movies img {
+  width: 150px;
+  height: 225px;
+  border-radius: 10px;
+}
+
+.info {
+  width: 150px;
+  padding-left: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.title:hover {
+  color: #01b4e4;
+}
+.title {
+  margin-left: 1rem;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 700;
+  display: flex;
+  font-size: 16px;
+  width: 100%;
+  max-width: 100%;
+
+  position: relative;
+  cursor: pointer;
+}
+
+.tekst {
+  position: absolute;
+  left: 4em;
+}
+.popular {
+  padding-top: 15px;
+  margin-bottom: 3rem;
+}
+
+/* lista filmova
+*/
+
+.general {
+}
+.container-for-movies {
+  margin-left: 70px;
+  height: 440px;
+  display: flex;
+  overflow-x: scroll;
+}
+.canvas {
+  position: relative;
+  bottom: 15px;
+  right: 215px;
+  width: 40px;
+  height: 40px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.colon {
+}
+.canvas-2 {
+  position: relative;
+  top: 50px;
+  width: 50px;
+  height: 50px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.colona {
+  top: 40px;
+}
+.movies p {
+  margin-left: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #dbdbdb;
+  height: 1vw;
+}
+
+.donji {
+  z-index: 999;
+  box-shadow: rgba(236, 236, 236, 0.95) -80px 0px 45px -48px inset;
+}
+
+.modal-text {
+  opacity: 1 !important;
+  color: white;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.col1 {
+  right: 10px;
+}

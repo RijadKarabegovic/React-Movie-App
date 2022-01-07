@@ -1,0 +1,57 @@
+.toggle {
+  font-size: 1em;
+  height: 32px;
+  width: 199px;
+  border-radius: 50px;
+  border: 1px solid #032541;
+  margin-top: 1px;
+  background-color: white;
+  position: absolute;
+  left: 18rem;
+  cursor: pointer;
+  max-width: 100%;
+}
+
+.toggled-theater {
+  border: 1px solid #032541;
+  background-color: white;
+}
+
+.notch {
+  width: 80px;
+  height: 31px;
+  border-radius: 50px;
+  background-color: #032541;
+  position: absolute;
+  left: 0px;
+}
+.toggled-theater > .notch {
+  width: 120px;
+  height: 31px;
+  transform: translate(78px, 0);
+  z-index: 999;
+}
+
+.notch-txt-1 {
+  position: relative;
+  left: 1rem;
+  top: 0.3rem;
+  font-weight: 750;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 16px;
+  background: -webkit-linear-gradient(lightgreen, rgb(102, 185, 212));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 999;
+}
+.notch-txt-2 {
+  z-index: 1;
+  position: relative;
+  word-spacing: 36px;
+  left: 1rem;
+  top: 0.25rem;
+  font-weight: 750;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #032541 !important;
+}
